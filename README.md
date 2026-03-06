@@ -30,10 +30,29 @@ This project uses two primary datasets:
 * **Prediction**: The model accepts input team names and a target run score to predict the likely winner.
 * **Evaluation**: The model performance was evaluated using `accuracy_score`, `precision_score`, and `recall_score`.
 
+## 📂 Project Structure & Branching
+
+
+To maintain a clean and reliable codebase, we utilize a structured Git branching strategy:
+* **`main`**: The production branch containing the finalized, stable code and analysis.
+* **`feature/`**: Branches used for testing new models or adding new visualization features without affecting the main analysis.
+
+**Repository Directory:**
+```text
+IPL-Insight-Predictor/
+├── data/               # Raw match and delivery datasets
+│   ├── matches.csv
+│   └── deliveries.csv
+├── notebooks/          # Analysis Jupyter Notebooks
+│   └── analysis.ipynb
+├── README.md           # Documentation
+└── requirements.txt    # Python dependencies
+```
+
 ## 🚀 How to Run
 1.  **Clone the repository**:
     ```bash
-    git clone [your-repository-url]
+    git clone https://github.com/ronakkatakiya123/IPL-Insight-Predictor
     ```
 2.  **Install dependencies**:
     ```bash
@@ -45,4 +64,9 @@ This project uses two primary datasets:
 The KNN classifier demonstrates the ability to predict match outcomes based on historical target run patterns. The model evaluation on the test set achieved an accuracy of 0.75.
 
 ---
-*Author: Ronak Katakiya*
+## 👨‍💻 Author
+
+**Ronak Katakiya**
+ [ B.Tech / Computer Science Student ]
+
+---
