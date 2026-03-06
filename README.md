@@ -1,4 +1,4 @@
-# IPL Insight Predictor
+# 🏏IPL Insight Predictor
 
 A comprehensive data analysis project exploring Indian Premier League (IPL) match and delivery statistics. This repository features data cleaning workflows, visualization of key team and player performance metrics, and a custom K-Nearest Neighbor (KNN) machine learning implementation to predict match winners based on target run data.
 
@@ -40,13 +40,20 @@ To maintain a clean and reliable codebase, we utilize a structured Git branching
 **Repository Directory:**
 ```text
 IPL-Insight-Predictor/
-├── data/               # Raw match and delivery datasets
-│   ├── matches.csv
-│   └── deliveries.csv
-├── notebooks/          # Analysis Jupyter Notebooks
-│   └── analysis.ipynb
-├── README.md           # Documentation
-└── requirements.txt    # Python dependencies
+├── data/
+│   └──dataset.zip          # Raw match and delivery datasets
+│       ├── matches.csv
+│       └── deliveries.csv
+├── Python code/            # Analysis Jupyter Notebooks
+│   └── ipl_knn_analysis.ipynb
+├── README.md               # Documentation
+└── Report.pdf              # inlclude images with graph and snippet output.
+
+Requirement
+    ├── pandas
+    ├── numpy
+    ├── matplotlib
+    └── scikit-learn
 ```
 
 ## 🚀 How to Run
